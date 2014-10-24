@@ -43,7 +43,7 @@
 * Regularly maintained and evolved (recently reached version 2.1)
 
 <div style="text-align:center;">
-  ![](assets/ruby/ruby_img.png)
+  ![](assets/02/ruby_img.png)
 </div>
 
 ---
@@ -56,8 +56,8 @@
 * Created by David Heinemer Hansson (DHH) to simplify the task of building web applications, emphasizing _convention over configuration_
 
 <div style="text-align:center;">
-  <img src="assets/rails/dhh.jpg" style="margin-right:20px;"/>
-  ![](assets/rails/rails.png)
+  <img src="assets/02/dhh.jpg" style="margin-right:20px;"/>
+  ![](assets/02/rails.png)
 </div>
 
 ---
@@ -163,7 +163,7 @@ Let's learn how to assign and access simple integer and string variables
 ##Math in Ruby
 ###Ruby Arithmetic Operators
 
-![Ruby Arithmetic](assets/ruby/ruby_arithmetic.jpg)
+![Ruby Arithmetic](assets/02/ruby_arithmetic.jpg)
 
 ---
 
@@ -204,7 +204,7 @@ Teddit is a news aggregator we will build during this course.
 ###Logic Operators
 
 
-![](assets/ruby/logic_operators.png)
+![](assets/02/logic_operators.png)
 
 ---
 
@@ -263,7 +263,7 @@ end
 ##Conditional Logic
 ###Multiple Conditions
 
-![truth_table](assets/ruby/truth_table.png)
+![truth_table](assets/02/truth_table.png)
 
 ---
 

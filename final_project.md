@@ -40,7 +40,7 @@ To pass projects must include:
 |Week 3 (8 November 2014)|Project Proposal Due|
 |Week 5 (22 November 2014)|User Stories, Models and Associations List|
 |Week 7 (6 December 2014)|Project Prototype|
-|Week 9 (20 December)|Final version, project presentations|
+|Week 9 (20 December 2014)|Final version, project presentations|
 
 
 ##DELIVERABLES

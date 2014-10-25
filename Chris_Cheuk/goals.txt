@@ -1,0 +1,3 @@
+Able to make a little web app.
+Be RoR-comfortable for further exploration.
+Learn something on front-end as well.

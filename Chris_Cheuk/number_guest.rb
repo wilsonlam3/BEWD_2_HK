@@ -2,11 +2,14 @@ def get_input
 	gets
 
 end
-def number_guest(x)
-	if x == 10
+def number_guest(a)
+	if a == 10
 		puts "You are right"
+	elsif a<10
+		puts "the actual number is higher"
 	else
-		puts "no"
+		puts "the actual number is lower"
+		
 	end
 
 end

@@ -19,10 +19,11 @@ def calculate_upvotes(story, category, upvotes)
 		upvotes
 end
 
+default_upvotes = 100
 puts "Welcome to Teddit! a text based news aggregator. Get today's news tomorrow!"
 puts "Please enter a News story:"
 story = get_input
 puts "Please give it a category:"
 category = get_input
-upvotes = calculate_upvotes(story, category)
+upvotes = calculate_upvotes(story, category, default_upvotes)
 puts "New story added! #{story}, Category: #{category.capitalize}, Current Upvotes: #{upvotes}"

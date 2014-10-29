@@ -6,16 +6,19 @@ Slides from the Saturday lectures can be found online at
 Git Concepts
 ------------
 * Repositories
-* Working directory vs staging/index vs repository vs remote
+  * Working directory vs staging/index vs repository vs remote
+  * Creating and cloning repos
+* Status
 * Commits
 * History
 * Branches
-* Pull requests
 * Merging
+* Pull requests
 
 Programming Concepts Supplement
 -------------------------------
 * Flow of control
+* "Under the hood" of the Ruby interpreter
 
 Common mistakes
 ---------------
@@ -28,6 +31,7 @@ Additional resources
 * [http://pcottle.github.io/learnGitBranching](http://pcottle.github.io/learnGitBranching)
 * [https://www.atlassian.com/git/tutorials/using-branches/git-branch](https://www.atlassian.com/git/tutorials/using-branches/git-branch)
 * [http://gitimmersion.com](http://gitimmersion.com)
+* [http://www.ndpsoftware.com/git-cheatsheet.html](http://www.ndpsoftware.com/git-cheatsheet.html)
 
 ### Ruby
 * [http://www.codecademy.com/en/tracks/ruby](http://www.codecademy.com/en/tracks/ruby)

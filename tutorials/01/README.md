@@ -16,7 +16,6 @@ Git Concepts
 Programming Concepts Supplement
 -------------------------------
 * Flow of control
-* Recursion
 
 Common mistakes
 ---------------
@@ -33,3 +32,7 @@ Additional resources
 ### Ruby
 * [http://www.codecademy.com/en/tracks/ruby](http://www.codecademy.com/en/tracks/ruby)
 * [http://ruby.learncodethehardway.org/book](http://ruby.learncodethehardway.org/book)
+
+Bonus Topics
+------------
+* [Recursion](http://ruby.bastardsbook.com/chapters/recursion/)

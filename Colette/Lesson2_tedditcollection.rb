@@ -47,12 +47,11 @@ until response == "n"
 	puts "Please give it a category:"
 	category = get_input
 	upvotes = calculate_upvotes(title, category)
-	storyhash = {"title" => title, "category" => category, "upvotes" => upvotes}
-	story << storyhash
+	story << {"title" => title, "category" => category, "upvotes" => upvotes}
 	puts "Would you like to add another story? Enter 'y' or 'n'."
 	response = get_input
 end
 
-story.each do |storyhash|
-	puts "Story: #{storyhash['title']}, Category: (#{storyhash['category'].capitalize}), Current Upvotes: #{storyhash['upvotes']}"
+story.each do |index|
+	puts "Story: #{index['title']}, Category: (#{index['category'].capitalize}), Current Upvotes: #{index['upvotes']}"
 end

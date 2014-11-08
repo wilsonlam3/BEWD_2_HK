@@ -1,0 +1,24 @@
+Project Proposal #1: Music idea
+
+What is the purpose of your website? 
+The purpose of my website is to provide a simple consolidated listing of live music events in Hong Kong across all genres.
+
+Why would a user come to your website?
+Users would come to my website to find information about live music events or contribute to the event listings. 
+
+What will a user see on the landing page (your homepage)? 
+They will see a calendar and/or listing view of upcoming music events in Hong Kong.
+They will see other tabs for ¡§about us / contact us¡¨, and also a log in function. 
+
+What is the incentive for a user to sign up for an account? 
+There are 2 incentives for users to sign up:
+1. Receive information: e-mail reminders of upcoming events they¡¦d like to attend, and maybe a monthly or weekly e-mail regarding major/featured live music events.
+2. Contribute information: there is probably a lack of APIs that I could use to get event listings etc especially for small venues or local/non-international music events. Hence the website will also need to rely on users¡¦ contributions. 
+
+What kind of things can users do once they log in¡Xwhat new actions are available to them?
+Once users log in, they can:
+1. Edit their personal information collected for the website ¡V first name, last name, username, password, e-mail.
+2. Edit music event listings ¡V add, edit, delete. 
+
+What is the minimum amount of personal information you need to collect from your user? 
+First name, last name, username, password, e-mail.

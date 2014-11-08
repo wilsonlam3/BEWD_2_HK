@@ -72,7 +72,7 @@ else
     end
 
     puts "Sky News: "
-
+    
     sky_data = RestClient.get('http://feeds.skynews.com/feeds/mobile/home.json')
     sky_hash = JSON.load(sky_data)
 

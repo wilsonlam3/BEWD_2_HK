@@ -6,9 +6,20 @@
 
 def get_input
   #Get input from the user.
+  gets.chomp
 end
 
-def calculate_upvotes(story, category)
+def calculate_upvotes(story, category, upvotes)
+	if category.include? "cats"
+		upvotes * 5
+	elsif category.include? "bacon"
+		upvotes * 8
+	elsif category.include? "food"
+		upvotes * 3
+	else
+		upvotes
+	end
+
 	# Write code so that:
 		# If the Story is about cats multiply the upvotes by 5
 		# If the Story is about bacon multiply the upvotes by 8
@@ -18,24 +29,11 @@ def calculate_upvotes(story, category)
 	# "Cats frolic despite tuna shortage" should give you 5 times the upvotes!
 end
 
+DEFAULTS_UPVOTES = 100
 puts "Welcome to Teddit! a text based news aggregator. Get today's news tomorrow!"
-<<<<<<< HEAD
-
-puts "Would you like to submit a news story? (y/n)"
-answer = get_input
-if answer == "y"
-    puts "Please enter a News story:"
-    story = get_input
-    puts "Please give it a category:"
-    category = get_input
-    upvotes = calculate_upvotes(story, category, 4)
-    puts "New story added! #{story}, Category: #{category.capitalize}, Current Upvotes: #{upvotes}"
-else
-=======
 puts "Please enter a News story:"
 story = get_input
 puts "Please give it a category:"
 category = get_input
-upvotes = calculate_upvotes(story, category)
+upvotes = calculate_upvotes(story, category, DEFAULTS_UPVOTES)
 puts "New story added! #{story}, Category: #{category.capitalize}, Current Upvotes: #{upvotes}"
->>>>>>> a4f5d27be987d2fe2858e8d1edbef36bc42eac5e

@@ -1,0 +1,4 @@
+Goals:
+1. learn BEWD
+2. make fds
+3. try something new

@@ -1,0 +1,44 @@
+Colette's proposal
+
+1) What is the purpose of your website? 
+Share Your Meal website promotes reduction of food wastage and provides a platform for community events and sponsorship programs. 
+
+Share Your Meal is a social project that incentivizes reduction of food wastage by setting up a scheme in local restaurants that allow customers to purchase a meal with reduced portions at full price. Each reduced meal will earn one food credit and once sufficient credits are collected, it can be exchanged for a standard meal food voucher. This voucher can be donated or redistributed to their own community.
+
+2) Why would a user come to your website?
+Look for minimal waste restaurants that sells food vouchers in a specific district
+Get updates and resources on food wastage
+Follow our blog which showcases success stories in the community
+Sign up for newsletter for upcoming events (don't have to be a users, users have the option to receive newsletters)
+Search for upcoming events
+Post or join upcoming events (users only)
+Donate to a set up package to kickstart the program at a random restuarant in the selected district (users only)
+Search and connect with ambassadors in their district who has made their profile public (TBD)
+Join and become a guests, which can be upgraded to ambassador status when they join an event (TBD)
+
+3) What will a user see on the landing page (your homepage)? 
+Featured articles
+Upcoming events
+What we are about
+Call to actions (TBD)
+
+4) What is the incentive for a user to sign up for an account? 
+Keep up to date with community events in their own district
+Easy way to donate to set up of a minimal food waste restaurant in their own community
+
+5) What kind of things can users do once they log in—what new actions are available to them?
+RSVP and post new events
+Donate to the set up of a restaurant in a selected district
+
+6) What is the minimum amount of personal information you need to collect from your user? 
+-email
+-district of residence
+-district(s) to watch for
+-facebook ??
+
+Donation purpose only
+-credit card / paypal info
+-name
+-address
+-phone number
+-email

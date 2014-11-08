@@ -1,0 +1,16 @@
+What is the purpose of your website? 
+=>To help people come up with a common available date for an event. 
+
+Why would a user come to your website? 
+=>When they got invited to an event. 
+
+What will a user see on the landing page (your homepage)?  
+=>The Event details and the available time of other invitees. 
+
+What is the incentive for a user to sign up for an account? 
+=>Sign up for an account to create events and become administrator of the events. 
+
+What kind of things can users do once they log in—what new actions are available to them? The administrator will have an access right to add/ remove entries from users and amend the event page. 
+
+What is the minimum amount of personal information you need to collect from your user?  
+=>Email, username and password.

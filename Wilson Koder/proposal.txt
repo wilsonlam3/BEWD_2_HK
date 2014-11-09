@@ -1,0 +1,17 @@
+What is the purpose of your website?
+The purpose of my app is to allows users to keep a to-do list/post it notes online but you can define your own dimensions along which you want to filter/sort the list
+
+Why would a user come to your website?
+A user would come to my website if their current solutions for post its online weren't working for them.
+
+What will a user see on the landing page (your homepage)?
+A demo post it board, and a sign up form + a login button that would take you to the login page, or a create a board button.
+
+What is the incentive for a user to sign up for an account?
+You will have access to additional features
+
+What kind of things can users do once they log in—what new actions are available to them?
+You can save your own boards.
+
+What is the minimum amount of personal information you need to collect from your user?
+Username, email, and password

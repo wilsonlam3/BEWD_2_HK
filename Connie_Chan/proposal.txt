@@ -1,0 +1,24 @@
+Project proposal
+Connie
+
+Project: Autobill
+
+What is the purpose of your website?
+generate professional billings from schedule 
+schedule, timesheet and billing all in one
+
+Why would a user come to your website?
+because it is a potential time-saver and convenient tools for producing bills
+
+What will a user see on the landing page (your homepage)?
+an interactive clock on which a user can mark his/her schedule 
+
+What is the incentive for a user to sign up for an account?
+to eliminate the step of recording on time sheets and save time producing bills based on time sheets 
+
+What kind of things can users do once they log in—what new actions are available to them?
+transfer their activities on schedule to bills
+
+What is the minimum amount of personal information you need to collect from your user? 
+name and email / fb account
+

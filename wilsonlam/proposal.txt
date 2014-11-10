@@ -1,0 +1,39 @@
+Title : Rebuild Me
+
+What is the purpose of your website?
+==> The purpose of my website is to provide a web service to a user or a company’s webpage to be rebuilt into more dynamic environment to attract more audience to visit its website.
+Their existing webpages which were written from the other classic programming languages that were sluggish for the users’ experience as the data grows. Rebuild Me or refactoring flourishes the entire website using Ruby on Rails and adapting API datasets transformed the company’s relationship with its member stations and the way that shares content with them.
+  
+
+Why would a user come to your website?
+==> A link from an existing customer webpage to redirect into my website.
+==> A user (or the management) would come to my website to see the progress of the project and preview the contents that we will be use for demonstration of the webpages as being rebuild.
+
+
+What will a user see on the landing page (your homepage)?
+==> Create a new username login and password if they are interested on our services and About page to contact us.
+==> A mockup demo compared to the sample of current post.
+==> A username login and password to restrict only the customers who had already signed up with our service, to be able to access their website before it officially launch to public.
+
+
+What is the incentive for a user to sign up for an account?
+==> If the demo would keep their eyes wide open.
+
+
+What kind of things can users do once they log in—what new actions are available to them?
+==> Some other features 
+==> Web services that we can offer if the user does not have any website yet. 
+==> Terms and condition
+==> Package price per page for a basic standard layout
+==> Payment terms and online payment
+==> Customer support if their current online pages weren't working for them.
+
+
+What is the minimum amount of personal information you need to collect from your user?
+==> Username, email, password, contact name and telephone number.
+
+
+===============
+I will provide a mockup front end design for simple demo to achieve the functionality of the back end web development. A topic will be taken from the HK Gov Data.One datasets for this project.
+
+

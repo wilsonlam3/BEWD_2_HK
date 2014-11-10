@@ -9,10 +9,12 @@ class Building
 
 
 	def view_apartments
+		puts "-------#{@name} Apartment List-------"	
 		apartments.each do |index| 
-		   puts "-------#{@name} Apartment List-------"	
+		   
 		   puts "#{index}"
-
+		   if index.renter.nil? then puts "the apartment is empty" end
+		   puts 
 		end
 
 

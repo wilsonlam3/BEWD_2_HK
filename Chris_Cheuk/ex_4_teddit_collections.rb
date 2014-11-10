@@ -20,7 +20,7 @@ end
 stories=[]
 puts "Welcome to Teddit! a text based news aggregator. Get today's news tomorrow!"
 continue=true
-while continue == true do
+while continue do
   print "Please enter a News story:"
   story= get_input
   print "Please give it a category:"
@@ -28,11 +28,8 @@ while continue == true do
   votes = calculate_upvotes(story, category)
   stories << {title: story, category: category, upvotes: votes }
   print "Would you like to add another story? Enter 'y' or 'n'"
-  if get_input == 'y'
-    continue = true
-  else
-    continue = false
-  end
+  if get_input !='y' then continue = false end
+    
 end
 
 stories.each do |array|

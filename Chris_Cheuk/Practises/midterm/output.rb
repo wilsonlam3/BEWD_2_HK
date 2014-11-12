@@ -1,0 +1,28 @@
+class Output
+	attr_accessor :title, :year, :rated, :released, :runtime, :genre, :director, :actors, :plot, :awards, :imdbID
+	def initialize(title,year,rated,released,runtime,genre,director,actors,plot,awards,imdbID)
+		@title=title
+		@year=year
+		@rated=rated
+		@released=released
+		@runtime=runtime
+		@genre=genre
+		@director=director,
+		@plot=plot
+		@awards=awards,
+		@imdbID=imdbID
+
+	end
+	def short_print
+		puts title 
+		puts year
+		puts director
+		puts plot
+	end
+	def long_print
+		puts @director
+		#puts "title:#{title} \nYear: #{year}\nRated: #{rated}\nReleased: #{released}\nRuntime: #{runtime}\nGenre: #{genre}\nDirector: #{director}\nActors: #{actors}\nPlot: #{plot}\nAwards: #{awards}\nIMDdID#{imdbID} "
+	end
+
+
+end

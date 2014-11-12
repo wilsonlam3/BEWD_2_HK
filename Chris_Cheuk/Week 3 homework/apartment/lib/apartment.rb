@@ -11,5 +11,9 @@ class Apartment
 	def to_s
 		"Apartment: #{@name} \n sqft: #{@apt_sqft}       Bedroom: #{@apt_bedrooms}        Bathroom: #{@apt_bathrooms}"	
 	end
+	def empty
+	  "yes" if @renter.nil?	
+	end
+
 
 end

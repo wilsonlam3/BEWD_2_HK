@@ -14,9 +14,9 @@ def calculate_upvotes(story, category)
   upvotes
 end
 
-raw_data = RestClient.get ('http://www.reddit.com/.json')
+raw_data = RestClient.get('http://www.reddit.com/.json')
 
-story_hash = JSON.load (raw_data)
+story_hash = JSON.load(raw_data)
 
 
 story_hash["data"]["children"].each do |array|

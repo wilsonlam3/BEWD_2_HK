@@ -1,6 +1,5 @@
 require 'rest-client'
 require_relative 'request'
-require_relative 'output'
 
 def get_input
   print "What the name of the movie? " 
@@ -10,11 +9,9 @@ end
 def retrieval(id)
 	raw_data=RestClient.get('http://www.omdbapi.com/?t='+id+'&plot=short&r=json')
 	data_hash=JSON.parse(raw_data)
-	data_hash
 end
 
 title=get_input
 query=Request.new(title, retrieval(title.gsub(/\ /,"+")))
-
-query.output.short_print
-puts query.output.director.class
+print "Would you like to have a detailed output?(y/n)"
+if gets.chomp.downcase=="y" then query.output.long_print else query.output.short_print end

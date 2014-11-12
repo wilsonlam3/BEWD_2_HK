@@ -7,21 +7,23 @@ class Output
 		@released=released
 		@runtime=runtime
 		@genre=genre
-		@director=director,
+		@director=director
+		@actors=actors
 		@plot=plot
-		@awards=awards,
+		@awards=awards
 		@imdbID=imdbID
 
 	end
 	def short_print
-		puts title 
-		puts year
-		puts director
-		puts plot
+		puts "------------the output is as below------------"
+		puts "Title: #{title}"
+		puts "Year: #{year}"
+		puts "Director: #{director}"
+		puts "Plot: #{plot}"
 	end
 	def long_print
-		puts @director
-		#puts "title:#{title} \nYear: #{year}\nRated: #{rated}\nReleased: #{released}\nRuntime: #{runtime}\nGenre: #{genre}\nDirector: #{director}\nActors: #{actors}\nPlot: #{plot}\nAwards: #{awards}\nIMDdID#{imdbID} "
+		puts "------------the output is as below------------"
+		puts "Title:#{title} \nYear: #{year}\nRated: #{rated}\nReleased: #{released}\nRuntime: #{runtime}\nGenre: #{genre}\nDirector: #{director}\nActors: #{actors}\nPlot: #{plot}\nAwards: #{awards}\nIMDdID: #{imdbID} "
 	end
 
 

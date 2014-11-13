@@ -9,11 +9,10 @@
 require 'json'
 require 'rest-client'
 
-raw_data = RestClient.get ('http://www.reddit.com/.json')
-story_hash = JSON.load (raw_data)
+raw_data = RestClient.get ('http://mashable.com/stories.json')
+story_hash = JSON.load(raw_data)
 
-story_hash ["data"]["children"].each do |story|
-	puts"Story: #{story["data"]["title"]}"
-	puts"Author: #{story["data"]["author"]}"
+story_hash["new"].each do |story|
+	puts "Title: #{story["title"]}"
+	puts "Category: #{story ["author"]}"
 end
-

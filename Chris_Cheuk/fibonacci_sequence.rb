@@ -5,7 +5,7 @@ def fib(x)
 	if x>1 	
 		for i in 1..x-1	
 
-			print (i).to_s + ":"
+			print i.to_s + ":"
 			puts current
 			#print " " 
 		  	temp=current+previous

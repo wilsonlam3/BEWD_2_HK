@@ -9,7 +9,7 @@ class Game
 	end
 	def generate_num
 		array=SecretNumber.new
-		@num=array.value[rand(4)]
+		@num=array.random
 	end
 	def evaluate_num
 		3.downto 1 do |count|

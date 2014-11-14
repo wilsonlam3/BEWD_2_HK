@@ -7,4 +7,4 @@
 2. Read about the MVC design pattern. Some resources to get you started:
     * [Understanding Model-View-Controller](http://blog.codinghorror.com/understanding-model-view-controller/)
     * [Wikipedia article](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-3. Finish your midterm! (Due Sunday, 23 November 2014)
+3. Finish your [midterm](../../midterm.md)! (Due Sunday, 23 November 2014)

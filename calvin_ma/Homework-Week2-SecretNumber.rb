@@ -20,6 +20,7 @@ print "Do you want to play again? (Y or N): "
 	break	
 		elsif replay_answer == "N" 
 			puts "You chose No. See you next time then."
+			exit
 	break
 		else 
 			print "Please just input Y or N: "

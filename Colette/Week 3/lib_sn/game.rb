@@ -8,13 +8,15 @@ class Game
 # we'll want to write a few separate methods for unique tasks so that our
 # code is structured properly
 
-	attr_accessor :user, :number, :secret
+	attr_accessor :user, :num, :secret
 
 	def initialize(user_name)
 		@user = Person.new(user_name)
-		@number = SecretNumber.new
-		@secret = number.num
+		@num = SecretNumber.new
+		@secret = num.number
 	end
+
+	MAX_GUESSES = 3
 
 ## Evaluates guess
 
@@ -23,7 +25,7 @@ class Game
 			"An integer from 1 to 10, ok?"
 		elsif guess > @secret && guess <= 10
 			"Too high."
-		else # guess < Secret_number && guess >= 1
+		else 
 			"Too low."
 		end
 	end
@@ -31,10 +33,11 @@ class Game
 ## Gives appropriate output for number of chances left
 
 	def chance_left(count)
-		if count == 3
-			"Game over. The secret number is #{@secret}."
+		guesses_remaining = MAX_GUESSES - count
+		if count == MAX_GUESSES
+			"Game over, #{@user}. The secret number is #{@secret}."
 		else
-			"You have #{3-count} chance#{"s" if count < 2} remaining."
+			"You have #{guesses_remaining} chance#{"s" if guesses_remaining >= 2} remaining."
 		end
 	end
 
@@ -42,10 +45,10 @@ class Game
 		puts "Input an integer from 1 to 10. Decimal places are rounded down."
 		puts "You have 3 chances."
 		count = 1
-		until count > 3
+		until count > MAX_GUESSES
 			guess = gets.to_i
 			if @secret == guess
-				puts "Correct! Good Job!"
+				puts "Correct! Good Job! #{@user}"
 				break
 			else 
 				puts "#{process_guess(guess)} #{chance_left(count)}"

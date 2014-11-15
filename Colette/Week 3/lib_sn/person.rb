@@ -4,4 +4,9 @@ class Person
 	def initialize (user)
 		@user = user
 	end
+
+	def to_s
+		@user
+	end
+	
 end

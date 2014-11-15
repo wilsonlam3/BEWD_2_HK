@@ -18,7 +18,7 @@ hash["notifications"].each do |array|
 
 end
 
-print ("enter the id that you want to know in details: ")
+print "enter the id that you want to know in details: "
 id=gets.chomp
 stringdetail = RestClient.get 'http://ogcmn.one.gov.hk/ogcmn/service/noti/detail/'+id 
 stringdetail= stringdetail[14...-2]

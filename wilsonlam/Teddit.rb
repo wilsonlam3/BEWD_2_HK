@@ -41,8 +41,7 @@ end
 
 # 2. Create an empty stories array. This will be used to hold all stories we capture.
 stories_array = Array.new
-index = 0         # holds the array index
-add_more = "Y"    # holds the user response
+add_more = "Y"    # Local variables, holds the user response
 
 
 puts "Welcome to Teddit! a text based news aggregator. Get today's news tomorrow!"
@@ -59,13 +58,18 @@ while add_more == "Y"
 # 5. Your story hash should look like the one below:
 #   { title: "Monkeys thank mayor for flounder tooth necklace", category: "Teeth", upvotes: 1 }
   stories_hash = {story: "#{story}" , category: "#{category}" , upvotes: "#{upvotes}"}
-#  puts stories_hash
+### Or as:
+###  stories_hash = {story: story , category: category , upvotes: upvotes}
 
 # 6. Add the hash to an array called stories 
 #   and print "Story: Monkeys thank mayor for flounder tooth necklace, Category: (Teeth), Current Upvotes: 1"
 
-  # stories_array.push(stories_hash)
-  stories_array << stories_hash
+  stories_array.push(stories_hash)
+### Or as:
+###  stories_array << stories_hash
+
+### Or you can replace the above two statements simply as:
+### stories_array << {"story" => story , "category" => category , "upvotes" => upvotes} 
 
 # Part 2: Adding Loops
 # 1. Use a loop so that your program continues to ask a user for stories until they 
@@ -90,6 +94,7 @@ end
 
 puts "Here are the summary of stories you added :"
 stories_array.each do |index|
-puts "Story: \"#{index[:story]}\" , Category: #{index[:category]}, Current Upvotes: #{index[:upvotes]}" 
+  puts "Story: \"#{index[:story]}\" , Category: #{index[:category]}, Current Upvotes: #{index[:upvotes]}" 
+### If using the alternative way, replace with this : 
+### puts "Story: \"#{index['story']}\" , Category: #{index['category']}, Current Upvotes: #{index['upvotes']}" 
 end
-

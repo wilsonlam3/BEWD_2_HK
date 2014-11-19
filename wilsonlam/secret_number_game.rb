@@ -37,30 +37,38 @@
 
 
 
-index = 0
-remaining = 0
-secret_number = 8
+#index = 0			# This line is unnecessary
+remaining = 3		# The game had mentioned to allow 3 tries
+Secret_number = 8	# Hard code the secret number. We can set this as Global variables. (with capital 'S')
 
 def get_input
 	gets.chomp
 end
 
-def check_guess(n, secret_number, remaining)
-	remaining -= 1
-	if remaining == 0 && n != secret_number
-		puts "Sorry you had reached the maximum number of tries"
-		puts "The secret number was #{secret_number}"
-		exit	
-	end
 
-	if n < secret_number
-		puts "Higher...You have #{remaining} guess(es) before the game is over. Please try again"
-	elsif n > secret_number
-		puts "Lower...You have #{remaining} guess(es) before the game is over. Please try again"
-	elsif n = secret_number
-		puts "Congratulations !!! You guessed it correctly! The secret number was #{secret_number} "
+### To reduce the size of an array occupying the same value, set secret_number to Global
+### Separate the calculation of remaining here, avoid passing too many variables,
+
+### def check_guess(n, secret_number, remaining)  
+def check_guess(n)
+
+#	remaining -= 1
+#	if remaining == 0 && n != secret_number
+#		puts "Sorry you had reached the maximum number of tries."
+#		puts "The secret number was #{Secret_number}."
+# 		exit
+# 	end
+
+	if n < Secret_number
+#		puts "Higher...You have #{remaining} guess(es) before the game is over. Please try again"
+		print "Higher..."
+	elsif n > Secret_number
+#		puts "Lower...You have #{remaining} guess(es) before the game is over. Please try again"
+		print "Lower..."
+	elsif n == Secret_number 
+		puts "Congratulations !!! You guessed it correctly! The secret number was #{Secret_number}."
 		exit
-	end	
+	end
 end
 
 print "Welcome, my name is Wilson - the creator of this Guess My Secret Number game.\n"
@@ -71,15 +79,25 @@ puts "\nHi #{player_name} ! Nice to interact with you."
 print "Let's play this game by guessing a number between 1 and 10 \n"
 print "and you have only 3 attempts to guess it right!\n\n"
 
-3.downto(1) do |index|
+# 3.downto(1) do |index| 		# |index| can be omitted
+3.downto(1) do
+	
 	digits = 1..10
 
 	print "Enter a number : "
 	n = get_input.to_i
 	
 	if !digits.include?(n)		# Ensure that the number inputted is within the range of 1 to 10	
-		print "The number must be in between 1 and 10.\n"    # If not, remind the player and try again
+		puts "The number must be in between 1 and 10."    # If not, remind the player and try again
 	end
-	check_guess(n, secret_number, index)
+
+	remaining -= 1 				# Subtract 1 and count the remaining tries
+	check_guess(n) 	
+	if remaining == 0
+		puts "Sorry you had reached the maximum number of tries."
+		puts "The secret number was #{Secret_number}."
+	else
+		puts "You have #{remaining} guess(es) before the game is over. Please try again"
+	end
 
 end

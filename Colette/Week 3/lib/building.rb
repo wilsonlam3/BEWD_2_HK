@@ -13,10 +13,10 @@ class Building
 		puts "Address: #{@building_address} \n Number of Units: #{@apartments.length}"
 		@apartments.each do |unit|
 			puts unit
-			if unit.occupied? == false
-				puts "This apartment is available."
-			else
+			if unit.occupied?
 				puts unit.renter
+			else
+				puts "This apartment is available."
 			end
 		end
 	end

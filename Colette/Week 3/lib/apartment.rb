@@ -7,7 +7,7 @@ class Apartment
 		@apt_sqft = apt_sqft
 		@apt_bedrooms = apt_bedrooms
 		@apt_bathrooms = apt_bathrooms
-		@renter = []
+		@renter = nil
 		@rent = 0
 	end
 
@@ -16,7 +16,7 @@ class Apartment
 	end
 
 	def occupied?
-		@renter != 0
+		@renter != nil
 	end
 
 end

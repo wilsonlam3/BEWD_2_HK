@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Games on Rails</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <!-- Built with love by Salman Ansari, BEWD Instructor in Sep 2013 -->
+  <!-- Upgraded to Rails 4.1 by Hubert Lee, BEWD Instructor in Nov 2014 -->
+</head>
+<body>
+  <% unless controller.controller_name == 'games' %>
+    <%= link_to '< Back to Game Center', '/' %>
+  <% end %>
+
+  <div id="content">
+    <%= yield %>
+  </div>
+</body>
+</html>

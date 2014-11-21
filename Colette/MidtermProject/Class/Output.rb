@@ -2,15 +2,12 @@
 #Colette Leung
 #Output
 
-$:.unshift (File.dirname(__FILE__))
-require 'Class/GetAPI.rb'
-
 class Output
 
 attr_accessor :summary
 	
-	def initialize
-		@summary = GetAPI.new
+	def initialize (api)
+		@summary = api
 	end
 
 	def print_summary

@@ -3,14 +3,22 @@
 #Main
 
 $:.unshift (File.dirname(__FILE__))
-require 'Class/GetAPI.rb'
-require 'Class/GetInput.rb'
-require 'Class/Output.rb'
+require_relative 'Class/GetAPI.rb'
+require_relative 'Class/GetInput.rb'
+require_relative 'Class/Output.rb'
 
 #Welcome user
 
 puts 'Welcome to Open Movie Database'
 puts 'Input title to get plot information'
 
-movie = Output.new
+#Get User Input
+user_input = GetInput.new
+
+#Get API
+api = GetAPI.new(user_input)
+
+
+#Print Output
+movie = Output.new(api)
 output = movie.print_summary

@@ -2,19 +2,16 @@
 #Colette Leung
 #Get API
 
-$:.unshift (File.dirname(__FILE__))
-require 'Class/GetInput.rb'
 require 'rubygems'
 require 'rest_client'
 require 'json'
 
 class GetAPI
 
-	attr_accessor :summary, :input, :url
+	attr_accessor :summary, :url
 
-	def initialize
-		@input = GetInput.new
-		@url = input.to_s
+	def initialize(user_input)
+			@url = user_input.to_s
 	end
 
 	def urltojson

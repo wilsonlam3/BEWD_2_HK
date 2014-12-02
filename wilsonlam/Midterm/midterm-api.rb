@@ -19,7 +19,21 @@ puts "The GeoNames geographical database covers all countries and contains over 
 puts "     placenames that are available for download free of charge.\n\n"
 puts "Enter a location name, ex: \"Paris\"\, \"Hong Kong\"\, \"New York\""
 print "> "
-print_output = Output.new
-show_output = print_output.generate_result
+
+#Hube: Create and use an object that gets user input
+user_query = Query.new
+#puts user_query
+
+#Hube: Create and use an object that gets API data, providing it with the user input
+retrieve = Retrieve.new(user_query)
+generated_data = retrieve.generate_retrieve
+
+#Hube: Create and use an object to format and display the resulting API data
+if generated_data.empty?
+  puts "Sorry, your query cannot be found."  # If the user enters an invalid input or no results, the program ends
+else
+  output = Output.new(generated_data)
+  list_data = output.generate_result
+end
 
 puts "Thank you for using Geonames Web Service"

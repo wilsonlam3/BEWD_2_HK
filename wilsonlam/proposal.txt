@@ -1,39 +1,36 @@
-Title : Rebuild Your Website
+Title : My Blog Website
 
 What is the purpose of your website?
-==> The purpose of my website is to provide a web service to a user or a company’s webpage to be rebuilt into more dynamic environment to attract more audience to visit its website.
-Their existing webpages which were written from the other classic programming languages that were sluggish for the users’ experience as the data grows. Rebuild Me or refactoring flourishes the entire website using Ruby on Rails and adapting API datasets transformed the company’s relationship with its member stations and the way that shares content with them.
+==> The purpose of my website is simply have a voice of articles I wanted to share. It also serves as the guide when I need to recall a specific piece of code or just want to browse through the examples of coding of what I had learned in web development and programming topics such as Ruby on Rails, APIs, HTML5/CSS3, JavaScript, Specs, Mashups, GeoMaps, and more to come.
   
 
 Why would a user come to your website?
-==> A link from an existing customer webpage to redirect into my website.
-==> A user (or the management) would come to my website to see the progress of the project and preview the contents that we will be use for demonstration of the webpages as being rebuild.
+==> Basically this blog website would be for personal use. The scope would be based in own’s interests, motivations, news, and technical niche. However, I can notify my friends about interesting articles using a feature that sends a friendly email notification to interested parties. The targeted audience in return can add their comments regarding the post, or even they can share the article to their own friends using the same email notification method.
 
 
 What will a user see on the landing page (your homepage)?
-==> Create a new username login and password if they are interested on our services and About page to contact us.
-==> A mockup demo compared to the sample of current post.
-==> A username login and password to restrict only the customers who had already signed up with our service, to be able to access their website before it officially launch to public.
+==> The website might be simple one which doesn’t required to use any blogging software. A table of contents page divided into four parts(tabs): 
+  Article (home)
+  Tags (links on specific topics)
+  Quick links (on the right hand side)
+  About (Contact me, Any other comments)
 
 
 What is the incentive for a user to sign up for an account?
-==> If the demo would keep their eyes wide open.
+==> Some demo that might interest the audience to skim on how the coding was.
+==> Common interests from the posted topic of the articles. 
 
 
 What kind of things can users do once they log in—what new actions are available to them?
-==> Some other features 
-==> Web services that we can offer if the user does not have any website yet. 
-==> Terms and condition
-==> Package price per page for a basic standard layout
-==> Payment terms and online payment
-==> Customer support if their current online pages weren't working for them.
+==> Contributions of related stuffs as the webpage grows.
+==> Examine my blog’s goals, content, and audience can make suggestions or judgement on blog design.
 
 
 What is the minimum amount of personal information you need to collect from your user?
-==> Username, email, password, contact name and telephone number.
+==> Email address, optional users’ name.
 
 
 ===============
-I will provide a mockup front end design for simple demo to achieve the functionality of the back end web development. A topic will be taken from the HK Gov Data.One datasets for this project.
+Wilson Lam
 
 
